@@ -2,10 +2,10 @@ import { links } from '../data';
 
 const Navbar = () => {
   return (
-    <nav className='bg-emerald-100'>
-      <div className='align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8'>
+    <nav className='bg-blue-100 sticky top-0 w-screen '>
+      <div className='align-element py-4 flex flex-col sm:flex-row justify-between sm:gap-x-16 sm:items-center sm:py-8'>
         <h2 className='text-3xl font-bold'>
-          Web<span className='text-emerald-600'>Dev</span>
+        <span className='text--600'>Portfolio</span> <span className='text-emerald-600'>Arya</span>
         </h2>
         <div className='flex gap-x-3'>
           {links.map((link) => {

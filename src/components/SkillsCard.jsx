@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 const SkillsCard = ({ icon, title, text }) => {
   return (
     <article>
